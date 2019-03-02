@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: worklog
-          image: maxshapiro32/worklog
+          image: kapuveera/worklog
           imagePullPolicy: Always
           ports:
             - containerPort: 5000

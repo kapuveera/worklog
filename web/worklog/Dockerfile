@@ -1,5 +1,5 @@
 FROM node:8-alpine
-MAINTAINER Max Shapiro "maxshapiro32@ibm.com"
+MAINTAINER Raghava Reddy "raghavareddy@in.ibm.com"
 COPY . /worklog
 WORKDIR /worklog
 RUN npm install

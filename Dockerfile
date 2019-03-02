@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER Max Shapiro "maxshapiro32@ibm.com"
+MAINTAINER Raghava Reddy "raghavareddy@in.ibm.com"
 RUN apk add gcc g++ make libffi-dev openssl-dev
 COPY . /app
 WORKDIR /app
